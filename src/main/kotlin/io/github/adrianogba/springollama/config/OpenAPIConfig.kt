@@ -36,7 +36,7 @@ class OpenAPIConfig {
         val mitLicense: License = License().name("MIT License").url("https://choosealicense.com/licenses/mit/")
 
         val info: Info = Info()
-                .title("Tutorial Management API")
+                .title("Ollama on Spring Boot")
                 .version("1.0")
                 .contact(contact)
 //                .description("This API exposes endpoints to manage tutorials.").termsOfService("https://www.bezkoder.com/terms")
