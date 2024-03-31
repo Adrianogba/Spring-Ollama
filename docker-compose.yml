@@ -3,6 +3,9 @@ services:
   ollama:
     hostname: ollama
     container_name: ollama
-    image: ollama/ollama
+    #for CPU or Nvidia gpus
+    image: ollama/ollama:0.1.30
+    #for AMD gpus
+#    image: ollama/ollama:0.1.30-rocm
     ports:
       - "11434:11434"
