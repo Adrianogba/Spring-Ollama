@@ -1,6 +1,5 @@
 package io.github.adrianogba.springollama.service.impl
 
-import io.github.adrianogba.springollama.model.AiResponse
 import io.github.adrianogba.springollama.service.AiTrainingService
 import org.springframework.ai.embedding.EmbeddingClient
 import org.springframework.ai.embedding.EmbeddingRequest

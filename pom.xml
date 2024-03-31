@@ -2,22 +2,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <groupId>io.github.adrianogba</groupId>
+    <name>Spring-Ollama</name>
+    <artifactId>Spring-Ollama</artifactId>
+    <description>Spring-Ollama</description>
+    <version>0.0.1</version>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.2.3</version>
+        <version>3.2.4</version>
         <relativePath/>
     </parent>
-    <groupId>io.github.adrianogba</groupId>
-    <artifactId>Spring-Ollama</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>Spring-Ollama</name>
-    <description>Spring-Ollama</description>
     <properties>
         <java.version>17</java.version>
-        <kotlin.version>1.9.22</kotlin.version>
-        <spring-ai.version>0.8.0</spring-ai.version>
-        <spring-webmvc-ui.version>2.3.0</spring-webmvc-ui.version>
+        <kotlin.version>1.9.23</kotlin.version>
+        <spring-ai.version>0.8.1</spring-ai.version>
+        <spring-webmvc-ui.version>2.4.0</spring-webmvc-ui.version>
     </properties>
     <dependencies>
         <dependency>

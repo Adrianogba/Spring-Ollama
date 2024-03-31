@@ -9,7 +9,6 @@ import org.springframework.beans.factory.annotation.Value
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 
-
 @Configuration
 class OpenAPIConfig {
     @Value("\${adrianogba.openapi.dev-url}")
@@ -39,7 +38,7 @@ class OpenAPIConfig {
                 .title("Ollama on Spring Boot")
                 .version("1.0")
                 .contact(contact)
-//                .description("This API exposes endpoints to manage tutorials.").termsOfService("https://www.bezkoder.com/terms")
+                .description("This API exposes endpoints to play with the AI models.")
                 .license(mitLicense)
 
         return OpenAPI().info(info).servers(listOf(devServer, prodServer))

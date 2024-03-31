@@ -3,7 +3,6 @@ package io.github.adrianogba.springollama.service.impl
 import io.github.adrianogba.springollama.model.AiResponse
 import io.github.adrianogba.springollama.service.AiAnsweringService
 import org.springframework.ai.chat.ChatClient
-import org.springframework.ai.embedding.EmbeddingClient
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 
