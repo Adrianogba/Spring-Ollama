@@ -20,9 +20,17 @@ class AiAnsweringController @Autowired constructor(private val aiAnsweringServic
         return ResponseEntity.status(HttpStatus.OK).body(aiResponse)
     }
 
+    @GetMapping("api/v1/chat/")
+    fun chatWithContext(@RequestParam role: String, @RequestParam message: String): ResponseEntity<AiResponse?> {
+        val aiResponse = aiAnsweringService.chatWithRole(role, message)
+        return ResponseEntity.status(HttpStatus.OK).body(aiResponse)
+    }
+
     @GetMapping("api/v1/generate/joke/{topic}")
     fun generateJoke(@PathVariable topic: String?): ResponseEntity<AiResponse?> {
         val aiResponse = aiAnsweringService.generateJoke(topic)
         return ResponseEntity.status(HttpStatus.OK).body(aiResponse)
     }
+
+
 }
