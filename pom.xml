@@ -10,14 +10,14 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.2.4</version>
+        <version>3.2.5</version>
         <relativePath/>
     </parent>
     <properties>
         <java.version>17</java.version>
-        <kotlin.version>1.9.23</kotlin.version>
+        <kotlin.version>2.0.0-RC3</kotlin.version>
         <spring-ai.version>0.8.1</spring-ai.version>
-        <spring-webmvc-ui.version>2.4.0</spring-webmvc-ui.version>
+        <spring-webmvc-ui.version>2.5.0</spring-webmvc-ui.version>
     </properties>
     <dependencies>
         <dependency>
